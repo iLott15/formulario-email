@@ -9,7 +9,9 @@ $email = addslashes($_POST['email']);
 $mensagem = addslashes($_POST['message']);
 
 $to = "contato@ivanlott.tech";
+
 $subject = "Contato - Formulário de Contato";
+
 $body = "Nome: ".$nome."\r\n".
         "Email: ".$email."\r\n".
         "Mensagem: ".$mensagem;
